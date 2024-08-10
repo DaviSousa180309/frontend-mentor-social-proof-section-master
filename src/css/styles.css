@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+
+.main_div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 68.40277778%;
+}
+
+.titulo {
+    width: 40.57735783%;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p {
+    padding-top: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.p_h1 {
+    color: hsl(303, 10%, 53%);
+}
+
+.estrela {
+    margin-right: 5px;
+}
+
+.avaliacoes_div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 30px 15px 30px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    width: 54.80314961%;
+    margin-left: 227px;
+}
+
+.av_div_01 {
+    margin-left: 23.70508633%;
+}
+
+.av_div_02 {
+    margin-left: 33.03779748%;
+    margin-top: 2.4265049%;
+    margin-bottom: 2.4265049%;
+}
+
+.stars {
+    color: hsl(300, 43%, 22%);
+    font-size: 16px;
+}
+
+.article_div {
+    background-color: hsl(300, 43%, 22%);
+    padding: 25px;
+    width: 25.8%;
+    border-radius: 10px;
+}
+
+.article_02 {
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    width: 68.40277778%;
+}
+
+.div_01 {
+    margin: 3.8% 2.7% 0 2.7%;
+}
+
+.div_02 {
+    margin-top: 7.7%;
+}
+
+header {
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+
+.header_div {
+    padding-left: 20px;
+}
+
+.Verified {
+    color: hsl(333, 80%, 67%);
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 35px;
+    
+}
+
+.div_estrelas {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .avaliacoes_div {
+        margin-left: 49.6%;
+    }
+} 
+
+@media (max-width: 425px) {
+   body {
+        overflow-x: hidden;
+    } 
+
+    main{
+        display: unset;
+    }
+
+    .main_div {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .titulo {
+        width: auto;
+        margin: 25% 7% 0% 7%;
+    }
+
+    .avaliacoes {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .p_h1 {
+        text-align: center;
+    }
+
+    .av_div_01 {
+        margin-left: auto;  
+    }
+    
+    .av_div_02 {
+        margin-left: auto; 
+        margin-top: auto; 
+        margin-bottom: auto;
+    }
+
+    .avaliacoes_div {
+        justify-content: center;
+        flex-direction: column;  
+        width: auto;  
+        margin: 4% 7% 0% 7%;
+    }
+
+
+    .stars {
+        padding-top: 10px;
+    }
+
+    .div_01 {
+        margin: 0;
+    }
+
+    .article_div {
+        width: auto;
+        margin: 4% 7% 0% 7%;
+    }
+
+    .article_02 {
+        width: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div_02 {
+        margin-bottom: 25%;
+    }
+}
